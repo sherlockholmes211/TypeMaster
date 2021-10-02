@@ -61,7 +61,7 @@ app.use('/auth',authRoutes);
 
 // Connect to the Mongo DB
 mongoose
-  .connect("mongodb+srv://typemaster:sivasai@cluster0.io8wd.mongodb.net/User?retryWrites=true&w=majority", {
+  .connect("conectwithyour_mongodb", {
     useNewUrlParser: true
   })
   .then(() => console.log("MongoDB Connected..."))
